@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 119 | 18 |
+| 120 | 18 |
 
 ---
 
@@ -22,14 +22,14 @@
 - [dp](#dp) (3)
 - [games](#games) (2)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (48)
+- [greedy](#greedy) (49)
 - [implementation](#implementation) (26)
 - [math](#math) (48)
 - [number theory](#number-theory) (16)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (22)
+- [sortings](#sortings) (23)
 - [strings](#strings) (10)
-- [two pointers](#two-pointers) (13)
+- [two pointers](#two-pointers) (14)
 
 ---
 
@@ -195,6 +195,7 @@
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
 | 1726A | [Mainak and Array](https://codeforces.com/contest/1726/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1726/A%20-%20Mainak%20and%20Array/solution.cpp) |
+| 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
 | 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
@@ -346,6 +347,7 @@
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.cpp) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.cpp) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.cpp) |
+| 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1790D | [Matryoshkas](https://codeforces.com/contest/1790/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1790/D%20-%20Matryoshkas/solution.cpp) |
 | 1791G1 | [Teleporters (Easy Version)](https://codeforces.com/contest/1791/problem/G1) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1791/G1%20-%20Teleporters%20(Easy%20Version)/solution.cpp) |
 | 1808B | [Playing in a Casino](https://codeforces.com/contest/1808/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1808/B%20-%20Playing%20in%20a%20Casino/solution.cpp) |
@@ -387,6 +389,7 @@
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
+| 1729D | [Friends and the Restaurant](https://codeforces.com/contest/1729/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1729/D%20-%20Friends%20and%20the%20Restaurant/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.cpp) |
 | 1793C | [Dora and Search](https://codeforces.com/contest/1793/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1793/C%20-%20Dora%20and%20Search/solution.cpp) |
