@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 135 | 19 |
+| 136 | 19 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [Uncategorized](#uncategorized) (11)
 - [binary search](#binary-search) (9)
 - [bitmasks](#bitmasks) (5)
-- [brute force](#brute-force) (25)
+- [brute force](#brute-force) (26)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (29)
 - [data structures](#data-structures) (9)
@@ -23,13 +23,13 @@
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (3)
-- [greedy](#greedy) (56)
+- [greedy](#greedy) (57)
 - [implementation](#implementation) (30)
-- [math](#math) (57)
+- [math](#math) (58)
 - [number theory](#number-theory) (18)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (24)
-- [strings](#strings) (10)
+- [strings](#strings) (11)
 - [two pointers](#two-pointers) (15)
 
 ---
@@ -81,6 +81,7 @@
 | 1411B | [Fair Numbers](https://codeforces.com/contest/1411/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1411/B%20-%20Fair%20Numbers/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
@@ -205,6 +206,7 @@
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1635C | [Differential Sorting](https://codeforces.com/contest/1635/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1635/C%20-%20Differential%20Sorting/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
@@ -304,6 +306,7 @@
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
 | 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
@@ -415,6 +418,7 @@
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
 | 1374C | [Move Brackets](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1374/C%20-%20Move%20Brackets/solution.cpp) |
 | 1506C | [Double-ended Strings](https://codeforces.com/contest/1506/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1506/C%20-%20Double-ended%20Strings/solution.cpp) |
+| 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1606/A%20-%20AB%20Balance/solution.cpp) |
 | 1820B | [JoJo's Incredible Adventures](https://codeforces.com/contest/1820/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1820/B%20-%20JoJo's%20Incredible%20Adventures/solution.cpp) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
