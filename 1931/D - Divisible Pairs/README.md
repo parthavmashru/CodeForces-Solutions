@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1931/problem/D" target="_blank" rel="noopener noreferrer">1931D — Divisible Pairs</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1931D](https://codeforces.com/contest/1931/problem/D) |
+
+## Topics
+`combinatorics` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Divisible Pairs</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Polycarp has two favorite integers $$$x$$$ and $$$y$$$ (they can be equal), and he has found an array $$$a$$$ of length $$$n$$$.</p><p>Polycarp considers a pair of indices $$$\langle i, j \rangle$$$ ($$$1 \le i  \lt  j \le n$$$) <span class="tex-font-style-it">beautiful</span> if: </p><ul> <li> $$$a_i + a_j$$$ is divisible by $$$x$$$; </li><li> $$$a_i - a_j$$$ is divisible by $$$y$$$. </li></ul><p>For example, if $$$x=5$$$, $$$y=2$$$, $$$n=6$$$, $$$a=$$$[$$$1, 2, 7, 4, 9, 6$$$], then the only <span class="tex-font-style-it">beautiful</span> pairs are: </p><ul> <li> $$$\langle 1, 5 \rangle$$$: $$$a_1 + a_5 = 1 + 9 = 10$$$ ($$$10$$$ is divisible by $$$5$$$) and $$$a_1 - a_5 = 1 - 9 = -8$$$ ($$$-8$$$ is divisible by $$$2$$$); </li><li> $$$\langle 4, 6 \rangle$$$: $$$a_4 + a_6 = 4 + 6 = 10$$$ ($$$10$$$ is divisible by $$$5$$$) and $$$a_4 - a_6 = 4 - 6 = -2$$$ ($$$-2$$$ is divisible by $$$2$$$). </li></ul> Find the number of <span class="tex-font-style-it">beautiful</span> pairs in the array $$$a$$$.</div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases. Then the descriptions of the test cases follow.</p><p>The first line of each test case contains three integers $$$n$$$, $$$x$$$, and $$$y$$$ ($$$2 \le n \le 2 \cdot 10^5$$$, $$$1 \le x, y \le 10^9$$$) — the size of the array and Polycarp's favorite integers.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1, a_2, \dots, a_n$$$ ($$$1 \le a_i \le 10^9$$$) — the elements of the array.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the number of <span class="tex-font-style-it">beautiful</span> pairs in the array $$$a$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0046555557487283095" id="id0022664556898629706" class="input-output-copier">Copy</div></div><pre id="id0046555557487283095"><div class="test-example-line test-example-line-even test-example-line-0">7</div><div class="test-example-line test-example-line-odd test-example-line-1">6 5 2</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 7 4 9 6</div><div class="test-example-line test-example-line-even test-example-line-2">7 9 5</div><div class="test-example-line test-example-line-even test-example-line-2">1 10 15 3 8 12 15</div><div class="test-example-line test-example-line-odd test-example-line-3">9 4 10</div><div class="test-example-line test-example-line-odd test-example-line-3">14 10 2 2 11 11 13 5 6</div><div class="test-example-line test-example-line-even test-example-line-4">9 5 6</div><div class="test-example-line test-example-line-even test-example-line-4">10 7 6 7 9 7 7 10 10</div><div class="test-example-line test-example-line-odd test-example-line-5">9 6 2</div><div class="test-example-line test-example-line-odd test-example-line-5">4 9 7 1 2 2 13 3 15</div><div class="test-example-line test-example-line-even test-example-line-6">9 2 3</div><div class="test-example-line test-example-line-even test-example-line-6">14 6 1 15 12 15 8 2 15</div><div class="test-example-line test-example-line-odd test-example-line-7">10 5 7</div><div class="test-example-line test-example-line-odd test-example-line-7">13 3 3 2 12 11 3 7 13 14</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0004121234915297045" id="id009617536652785001" class="input-output-copier">Copy</div></div><pre id="id0004121234915297045">2
+0
+1
+3
+5
+7
+0
+</pre></div></div></div>
